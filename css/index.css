@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* Navbar section start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-left: 30px;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 150px;
+    /* align-items: center; */
+    font-size: 30px;
+
+}
+.active-item{
+    color: orange;
+    font-family: cursive;
+}
+/* navbar section end */
+
+
+/* main content start */
+.intro-section{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* main content part 1 */
+.left-section{
+    padding: 20px 20px;
+}
+h3{
+    font-size: 30px;
+    font-family:monospace;
+    margin-bottom: 0em;
+}
+h3>img{
+    height: 30px;
+}
+h1{
+    display: inline;
+    font-size: 60px;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+.sub-headlines{
+    padding-left: 60px;
+    font-size: 20px;
+
+}
+.sub-headlines img{
+    background-color: #FE5E35;
+    border-radius: 50%;
+    height: 20px;
+    margin-right: 20px;
+}
+h5::first-line{
+    font-size: 22px;
+}
+h5{
+    margin: 0px;
+    padding-top: 19px;
+}
+.text{
+    margin: 50px 0px;
+    font-size: 18px;
+    color: gray;
+    /* letter-spacing: 1px; */
+    word-spacing: 5px;
+}
+.action-btn{
+    color: white;
+    background-color: #FE5E35;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 2px solid;
+    padding: 10px 10px;
+    
+}
+.discount{
+    position: absolute;
+    top: 40px;
+    height: 150px;
+    right: 480px;
+    top: 350px;
+    
+}
+.discount-content{
+    font-family: cursive;
+    position: absolute;
+    top: 300px;
+    right: 500px;
+    color: rgba(3, 0, 0, 0.87);
+}
+.discount-content h1{
+    position: relative;
+    top: 50px;
+    font-size: 45px;
+}
+.discount-content h4{
+    position: relative;
+    top: 60px;
+    left: 10px;
+    font-size: 15px;
+}
+img[alt=headphone]{
+    height: 400px;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+.dots{
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-right: 150px;
+}
+.yellow-dot{
+    border-radius: 50%;
+    display: inline;
+    background-color: yellow;
+    min-width: 20px;
+    min-height: 20px;
+}
+.tomato-dot{
+    border-radius: 50%;
+    display: inline;
+    background-color: red;
+    min-width: 20px;
+    min-height: 20px;
+}
+.black-dot{
+    border-radius: 50%;
+    display: inline;
+    background-color: black;
+    min-width: 20px;
+    min-height: 20px;
+}
+.action-btn{
+    margin-right: 5px;
+
+}
+
+
